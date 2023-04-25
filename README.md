@@ -3,8 +3,8 @@ The game of Space Man
 ![spaceman_game](https://user-images.githubusercontent.com/128996101/234357262-7213efc6-8779-490b-9d0f-5a68940d8969.jpg)
 
 As a user: 
-  - Display an empty page with a Spaceship on it.
-  - Allow a drop down box with possible choices for words.
+  - Display an page that has blocks that are empty.
+  - Three boxes will be available to choose topics from.
   - Once the category has been selected the game will begin. 
   - The user will guess letters of the alphabet to complete an
     unknown word of the category chosen. 
@@ -12,6 +12,7 @@ As a user:
     revealed.
   - If the user guesses an incorrect letter, a piece of a spaceman
     will appear. 
+  - The user will have 5 oppurtunities to guess the correct word.  
   - If the spaceman is completed before the word has been solved,
     the spaceman will take off into orbit and the player will lose. 
   - If the correct letters are guessed, a message saying "You 
