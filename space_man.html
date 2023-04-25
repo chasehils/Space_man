@@ -17,9 +17,20 @@
 <body>
 
 
-  <h1> Spaceman</h1>
-<h2 class="wordsGuessed">word to be guessed</h2>
-<h2 class="guessesLeft">Number of guesses remaining</h2>
+  <title>Spaceman</title>
+  <div class="container">
+    <h1 class="text-center">Spaceman</h1>
+    <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'>5</span></div>
+    <div class="text-center">
+      <p>Guess the Country:</p>
+      <p id="wordSpotlight">The word to be guessed goes here</p>
+      <div id="keyboard"></div>
+      <button class="btn btn-info" Onclick="reset()">Reset</button>
+    </div>
+
+  </div>
+
+
 
 <script src="space_man.js"></script>
 </body>
