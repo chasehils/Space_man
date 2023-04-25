@@ -1,4 +1,6 @@
 The game of Space Man
+![spaceman_start](https://user-images.githubusercontent.com/128996101/234357240-3e2c1193-22e2-421a-af30-a9d564ccab1d.jpg)
+![spaceman_game](https://user-images.githubusercontent.com/128996101/234357262-7213efc6-8779-490b-9d0f-5a68940d8969.jpg)
 
 As a user: 
   - Display an empty page with a Spaceship on it.
