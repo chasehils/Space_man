@@ -4,17 +4,12 @@ body {
   background-color: #344883;
   color: #63ab63;
 }
-.img {
-  height: 200px;
-  width: 200px;
 
-}
 #keyboard {
   color: black;
 }
-.resizable {
-  resize: both;
-}
+
+
 .btn {
   background-color: #63ab63;
   color:#344883;
@@ -27,13 +22,29 @@ body {
   box
 }
 
-.spacepic {
-  position: relative;
-}
-.spacepic>div {
-  display: block;
-  position: absolute;
-  background-color: black;
-
+#spacemanPix {
   
 }
+
+.pic-piece1 {
+  display: grid;
+  background-color: black;
+  width: 158px;
+  height: 158px;
+}
+  
+
+.pic-piece1 {
+  display: grid;
+  background-color: black;
+  width: 158px;
+  height: 158px;
+}
+.pic-piece1 {
+  display: grid;
+  background-color: black;
+  width: 158px;
+  height: 158px;
+}
+  
+  

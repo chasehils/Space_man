@@ -10,7 +10,7 @@ const countries = [
 ]
 
 let answer = '';
-let maxWrong = 5;
+let maxWrong = 4;
 let mistakes = 0;
 let guessed = [];
 let wordStatus = null;
@@ -18,7 +18,7 @@ let wordStatus = null;
 function randomWord() {
   answer = countries[Math.floor(Math.random() * countries.length)];
 
-};
+}
 // created buttons for letter choices
 function generateButtons() {
   let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
@@ -35,14 +35,7 @@ function generateButtons() {
   document.getElementById('keyboard').innerHTML = buttonsHTML;
 };
 
-function reset() {
-  mistakes = 0;
-  guessed = [];
-  randomWord();
-  guessedWord();
-  updateMistakes();
-  generateButtons(); 
-}
+
 
 // choose a letter and run the function to see if the letter is correct or if
 // there is a mistake
@@ -53,10 +46,6 @@ function handleGuess(chosenLetter) {
   document.getElementById(chosenLetter).setAttribute('disabled', true);
 
 
-  
-        
-
-  alert(answer);
 
   if (answer.indexOf(chosenLetter) >= 0) {
     guessedWord();
@@ -65,11 +54,9 @@ function handleGuess(chosenLetter) {
     mistakes++;
     updateMistakes();
     checkIfGameLost();
-  
-
+    
   }
 }
-
 
 
 function checkIfGameWon() {
@@ -96,9 +83,19 @@ function updateMistakes() {
 
 }
 
+function reset() {
+  mistakes = 0;
+  guessed = [];
+  randomWord();
+  guessedWord();
+  updateMistakes();
+  generateButtons(); 
+
+}
+
 document.getElementById('maxWrong').innerHTML = maxWrong;
 
-
+reset();
 randomWord();
 generateButtons(); 
 guessedWord();
